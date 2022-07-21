@@ -12,11 +12,29 @@ nav{
     padding: 1rem 2rem 1rem 2rem ;
 }
 ul {
+    font-family: 'Rubik', sans-serif;
     list-style-type: none;
     display: inline-flex;
     flex-flow: row nowrap;
+    align-items: center;
     justify-content: flex-start;
     gap: 4rem;
+}
+h1{
+    display: inline-block;
+    padding: 5px;
+    margin: 50px 0 0 0;
+    font-size: 45px;
+    font-family: 'Rubik', sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: goldenrod;
+    background: goldenrod;
+    transition: 0.5s;
+}
+h1:hover{
+    color: brown;
+    transition: 0.5s;
 }
 .main1{
     display: flex;
@@ -40,6 +58,7 @@ ul {
     width: 31%; /* 2 items per row, 100% / 2 = 50% */
     position: relative;
     object-fit: cover;
+    transition: 0.5s;
 }
 .image{
     width: 100%;
@@ -81,9 +100,13 @@ ul {
     height: 25px;
 }
 .btn{
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    border-style: solid;
-    border-color: aquamarine;
-    background: aquamarine;
-    border-radius: 10px;
+    padding: 0 0 0 0;
+    border-style: dotted;
+    border-width: 0 0 0 0;
+    border-color: beige;
+    transition: 0.5S;
+}
+.btn:hover{
+    border-width: 0 0 5px 0;
+    transition: 0.5s;
 }
